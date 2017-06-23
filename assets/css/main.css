@@ -1,0 +1,106 @@
+.chart-circle {
+  text-align: center;
+  position: relative;
+  width: 192px;
+  margin: 10px auto;
+  -webkit-transform-style: preserve-3d;
+}
+
+.chart-circle transform-style:preserve-3d
+svg {
+  margin: 0 auto;
+}
+
+.chart-circle .cc-number, .chart-circle .cc-text, .chart-circle .cc-text-number {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+}
+
+.chart-circle .cc-text {
+  top: 65%;
+  width: 120px;
+  left: calc(50% - 60px);
+  text-transform: uppercase;
+}
+
+.chart-circle .cc-number {
+  font-size: 56px;
+  font-family: Helvetica,Arial,sans-serif;
+  top: 28%;
+}
+
+.chart-circle .cc-text-number {
+  font-size: 48px;
+  font-family: Helvetica,Arial,sans-serif;
+  top: 25%;
+}
+
+.chart-circle .cc-svg {
+  padding-bottom: 100%;
+}
+
+.chart-circle .cc-svg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.chart-circle .cc-svg ellipse {
+  stroke: #FFFFFF;
+  opacity: .7;
+}
+
+.black-svg.cc-svg path {
+  stroke: #000000;
+}
+
+.panel-default .cc-svg path {
+  stroke: #333;
+}
+
+.panel-primary .cc-svg path {
+  stroke: #fff;
+}
+
+.panel-success .cc-svg path {
+  stroke: #3c763d;
+}
+
+.panel-info .cc-svg path {
+  stroke: #31708f;
+}
+
+.panel-warning .cc-svg path {
+  stroke: #8a6d3b;
+}
+
+.panel-danger .cc-svg path {
+  stroke: #a94442;
+}
+
+.white-svg.cc-svg ellipse {
+  opacity: .5;
+}
+
+.white-svg.cc-svg path {
+  stroke: #FFFFFF;
+}
+
+@media (min-width: 991px) {
+  .chart-circle {
+    width: 240px;
+  }
+  .chart-circle .cc-text {
+    width: 150px;
+    top: 55%;
+    left: calc(50% - 75px);
+  }
+  .chart-circle .cc-number {
+    font-size: 72px;
+  }
+  .chart-circle .cc-text-number {
+    font-size: 60px;
+  }
+}

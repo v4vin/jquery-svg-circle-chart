@@ -1,0 +1,26 @@
+{
+  "name": "js-common",
+  "title": "Global Script Footer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "common"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Vinod Varghese",
+    "email": "v4vin@hotmail.com"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "component": {
+    "templates": {},
+    "attributes": {}
+  }
+}
