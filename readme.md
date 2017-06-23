@@ -4,8 +4,8 @@ jquery svg circle chart
 # Overview
 How to use 
 
---npm intall
+`npm install`
 
---gulp
+`gulp`
 
 ![jquery-svg-circle-chart](https://image.ibb.co/jgYEtQ/Untitled.jpg)
