@@ -1,9 +1,11 @@
-# jquery-svg-circle-chart
+# jquery svg circle chart
 jquery svg circle chart
 
 # Overview
 How to use 
 
-npm intall
+--npm intall
 
-gulp
+--gulp
+
+![jquery-svg-circle-chart](https://image.ibb.co/jgYEtQ/Untitled.jpg)
